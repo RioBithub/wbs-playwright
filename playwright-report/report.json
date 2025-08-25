@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 3
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -44,11 +44,27 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 3
+          "actualWorkers": 4
         },
         "id": "jr",
         "name": "jr",
         "testDir": "E:/AXURA/wbs-playwright/playwright/tests/jr",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "E:/AXURA/wbs-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "spjr",
+        "name": "spjr",
+        "testDir": "E:/AXURA/wbs-playwright/playwright/tests/spjr",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -95,12 +111,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 477,
+                      "duration": 380,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:00.634Z",
+                      "startTime": "2025-08-25T19:52:43.418Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -131,12 +147,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 125,
+                      "duration": 174,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:01.182Z",
+                      "startTime": "2025-08-25T19:52:43.837Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -167,12 +183,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 98,
+                      "duration": 175,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:01.376Z",
+                      "startTime": "2025-08-25T19:52:44.065Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -203,12 +219,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 93,
+                      "duration": 212,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:01.497Z",
+                      "startTime": "2025-08-25T19:52:44.284Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -239,12 +255,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 234,
+                      "duration": 272,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:01.621Z",
+                      "startTime": "2025-08-25T19:52:44.514Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -275,12 +291,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 105,
+                      "duration": 114,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:01.885Z",
+                      "startTime": "2025-08-25T19:52:44.805Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -311,12 +327,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 93,
+                      "duration": 102,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:02.018Z",
+                      "startTime": "2025-08-25T19:52:44.939Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -347,12 +363,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 105,
+                      "duration": 112,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:02.128Z",
+                      "startTime": "2025-08-25T19:52:45.060Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -400,7 +416,7 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "failed",
-                      "duration": 12078,
+                      "duration": 12397,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40",
@@ -418,13 +434,13 @@
                             "column": 40,
                             "line": 22
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n  20 |\n  21 |     // 3) 404 / Page Not Found juga dianggap proteksi valid\n> 22 |     await expect(page.locator('body')).toContainText(/not found|halaman tidak ditemukan|page not found/i);\n     |                                        ^\n  23 |   });\n  24 |\n  25 |   test('Register halaman terbuka', async ({ page }) => {\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:00.639Z",
+                      "startTime": "2025-08-25T19:52:43.441Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -450,10 +466,10 @@
                       }
                     },
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 14960,
+                      "duration": 11807,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40",
@@ -471,13 +487,13 @@
                             "column": 40,
                             "line": 22
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n  20 |\n  21 |     // 3) 404 / Page Not Found juga dianggap proteksi valid\n> 22 |     await expect(page.locator('body')).toContainText(/not found|halaman tidak ditemukan|page not found/i);\n     |                                        ^\n  23 |   });\n  24 |\n  25 |   test('Register halaman terbuka', async ({ page }) => {\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2025-08-25T14:45:15.067Z",
+                      "startTime": "2025-08-25T19:52:58.634Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -531,15 +547,15 @@
                   "projectName": "jr",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2097,
+                      "duration": 2188,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:32.575Z",
+                      "startTime": "2025-08-25T19:53:12.808Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -567,15 +583,15 @@
                   "projectName": "jr",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1741,
+                      "duration": 1752,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:35.099Z",
+                      "startTime": "2025-08-25T19:53:15.392Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -603,10 +619,10 @@
                   "projectName": "jr",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 12463,
+                      "duration": 12524,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36",
@@ -624,13 +640,13 @@
                             "column": 36,
                             "line": 57
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n  55 |\n  56 |     // Toleran: tunggu muncul salah satu indikator teks feedback\n> 57 |     await expect(feedback.first()).toBeVisible({ timeout: 10000 });\n     |                                    ^\n  58 |   });\n  59 |\n  60 |   test('Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA', async ({ page }) => {\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:36.864Z",
+                      "startTime": "2025-08-25T19:53:17.166Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -656,10 +672,10 @@
                       }
                     },
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 12870,
+                      "duration": 13007,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36",
@@ -677,13 +693,13 @@
                             "column": 36,
                             "line": 57
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n  55 |\n  56 |     // Toleran: tunggu muncul salah satu indikator teks feedback\n> 57 |     await expect(feedback.first()).toBeVisible({ timeout: 10000 });\n     |                                    ^\n  58 |   });\n  59 |\n  60 |   test('Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA', async ({ page }) => {\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 1,
-                      "startTime": "2025-08-25T14:45:51.464Z",
+                      "startTime": "2025-08-25T19:53:31.399Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -737,15 +753,15 @@
                   "projectName": "jr",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2826,
+                      "duration": 2825,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:46:06.753Z",
+                      "startTime": "2025-08-25T19:53:47.301Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -773,15 +789,15 @@
                   "projectName": "jr",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 525,
+                      "duration": 522,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:46:09.951Z",
+                      "startTime": "2025-08-25T19:53:50.540Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -829,12 +845,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6122,
+                      "duration": 1980,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:00.641Z",
+                      "startTime": "2025-08-25T19:52:43.441Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -865,12 +881,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 5052,
+                      "duration": 1411,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:07.220Z",
+                      "startTime": "2025-08-25T19:52:45.888Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -901,12 +917,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1926,
+                      "duration": 1458,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:12.295Z",
+                      "startTime": "2025-08-25T19:52:47.322Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -937,12 +953,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 4794,
+                      "duration": 1353,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:14.239Z",
+                      "startTime": "2025-08-25T19:52:48.802Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -974,12 +990,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1904,
+                      "duration": 1826,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-08-25T14:45:19.052Z",
+                      "startTime": "2025-08-25T19:52:50.176Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -995,13 +1011,268 @@
           ]
         }
       ]
+    },
+    {
+      "title": "playwright\\tests\\spjr\\spjr-api.spec.ts",
+      "file": "playwright/tests/spjr/spjr-api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SP Jasa Raharja - API Endpoint Checks",
+          "file": "playwright/tests/spjr/spjr-api.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Endpoint /all-news",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1344,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:43.415Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-9d7dbd3655bc21d3a3d3",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /sejarah",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 60,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:44.797Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-1bb609e93df84a61a781",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /visi-misi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 60,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:44.886Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-119b9aa1c9f951ee27cd",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /struktur",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 80,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:44.976Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-40fd710e007cf3be9a53",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /tugas-fungsi",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 66,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:45.089Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-392da166cc2f352a67e9",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /laporan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 82,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:45.185Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-b7ff7b4e175d1161c27e",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Endpoint /panduan",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "spjr",
+                  "projectName": "spjr",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 60,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T19:52:45.289Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e91e9419e3fda0a88c5e-e7fbb518beb4ab54739d",
+              "file": "playwright/tests/spjr/spjr-api.spec.ts",
+              "line": 42,
+              "column": 7
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-25T14:44:59.420Z",
-    "duration": 71332.343,
-    "expected": 17,
+    "startTime": "2025-08-25T19:52:41.790Z",
+    "duration": 69494.19900000001,
+    "expected": 24,
     "skipped": 0,
     "unexpected": 2,
     "flaky": 0

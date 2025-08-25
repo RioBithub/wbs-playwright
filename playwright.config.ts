@@ -10,18 +10,31 @@ export default defineConfig({
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
     ['json', { outputFile: 'playwright-report/report.json' }]
   ],
+  // default "use" untuk semua project
   use: {
-    baseURL: 'https://wbs.jasaraharja.co.id',
-    ...devices['Desktop Chrome'],
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    viewport: { width: 1366, height: 768 }
   },
+
   projects: [
     {
       name: 'jr',
-      testDir: 'playwright/tests/jr'
+      testDir: 'playwright/tests/jr',
+      use: {
+        baseURL: 'https://wbs.jasaraharja.co.id',
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1366, height: 768 }, // 👈 override viewport di sini
+      },
+    },
+    {
+      name: 'spjr',
+      testDir: 'playwright/tests/spjr',
+      use: {
+        baseURL: 'https://sp-jasaraharja.id',
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1366, height: 768 }, // 👈 override viewport di sini
+      },
     }
-  ]
+  ],
 });
