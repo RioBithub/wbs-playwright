@@ -1,0 +1,91 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]
+  - navigation [ref=e6]:
+    - generic [ref=e7]:
+      - link "Brand" [ref=e9] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - img "Brand" [ref=e10] [cursor=pointer]
+      - generic [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link " HOME" [ref=e14] [cursor=pointer]:
+              - /url: //wbs.jasaraharja.co.id
+              - generic [ref=e15] [cursor=pointer]: 
+              - strong [ref=e16] [cursor=pointer]: HOME
+          - listitem [ref=e17]:
+            - button " TENTANG WBS" [ref=e18] [cursor=pointer]:
+              - generic [ref=e19] [cursor=pointer]: 
+              - strong [ref=e20] [cursor=pointer]: TENTANG WBS
+            - text:     
+          - listitem [ref=e22]:
+            - link " WEBSITE JASA RAHARJA" [ref=e23] [cursor=pointer]:
+              - /url: //www.jasaraharja.co.id
+              - generic [ref=e24] [cursor=pointer]: 
+              - strong [ref=e25] [cursor=pointer]: WEBSITE JASA RAHARJA
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link " LAPORAN ANONIM" [ref=e28] [cursor=pointer]:
+              - /url: //wbs.jasaraharja.co.id/laporan/tambah
+              - generic [ref=e29] [cursor=pointer]: 
+              - strong [ref=e30] [cursor=pointer]: LAPORAN ANONIM
+          - listitem [ref=e31]:
+            - link " DAFTAR" [ref=e32] [cursor=pointer]:
+              - /url: //wbs.jasaraharja.co.id/register
+              - generic [ref=e33] [cursor=pointer]: 
+              - strong [ref=e34] [cursor=pointer]: DAFTAR
+          - listitem [ref=e35]:
+            - link " LOGIN" [ref=e36] [cursor=pointer]:
+              - /url: //wbs.jasaraharja.co.id/login
+              - generic [ref=e37] [cursor=pointer]: 
+              - strong [ref=e38] [cursor=pointer]: LOGIN
+  - generic [ref=e41]:
+    - heading " Reset Password" [level=1] [ref=e43]:
+      - generic [ref=e44]: 
+      - text: Reset Password
+    - generic [ref=e47]:
+      - generic [ref=e48]: Reset Password
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - text: Alamat Email
+            - generic [ref=e53]: "*"
+          - textbox "Alamat Email *" [ref=e54]: user@invalid-example.test
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - text: Verifikasi
+            - generic [ref=e57]: "*"
+          - iframe [ref=e61]:
+            - generic [ref=f1e2]:
+              - generic [ref=f1e3]:
+                - checkbox "Saya bukan robot" [ref=f1e7]
+                - generic [ref=f1e11]: Saya bukan robot
+              - generic [ref=f1e12]:
+                - generic [ref=f1e15]: reCAPTCHA
+                - generic [ref=f1e16]:
+                  - link "Privasi" [ref=f1e17] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/id/policies/privacy/
+                  - generic [ref=f1e18]: "-"
+                  - link "Persyaratan" [ref=f1e19] [cursor=pointer]:
+                    - /url: https://www.google.com/intl/id/policies/terms/
+        - button "Kirim Link Reset Password" [ref=e63] [cursor=pointer]
+  - contentinfo [ref=e64]:
+    - generic [ref=e67]:
+      - paragraph
+      - heading "Copyright © 2025" [level=6] [ref=e68]
+      - heading "Whistleblowing System Jasa Raharja" [level=6] [ref=e69]:
+        - strong [ref=e70]: Whistleblowing System Jasa Raharja
+      - heading "Jl. HR. Rasuna Said Kav. C-2, Kuningan, Jakarta Selatan 12920" [level=6] [ref=e71]
+      - heading "Telp (021) 5203454 - Fax (021) 5220284" [level=6] [ref=e72]
+      - paragraph
+  - generic [ref=e74]:
+    - heading "Error" [level=2] [ref=e78]
+    - paragraph [ref=e79]: Bidang isian g-recaptcha-response wajib diisi.
+    - group
+    - generic:
+      - generic [ref=e81]: "!"
+      - paragraph [ref=e82]: Not valid!
+    - button "OK" [active] [ref=e85] [cursor=pointer]
+```

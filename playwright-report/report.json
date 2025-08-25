@@ -1,0 +1,1009 @@
+{
+  "config": {
+    "configFile": "E:\\AXURA\\wbs-playwright\\playwright.config.ts",
+    "rootDir": "E:/AXURA/wbs-playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "E:/AXURA/wbs-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "jr",
+        "name": "jr",
+        "testDir": "E:/AXURA/wbs-playwright/playwright/tests/jr",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "playwright\\tests\\jr\\api.spec.ts",
+      "file": "playwright/tests/jr/api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "[JR][@api] Endpoint health check",
+          "file": "playwright/tests/jr/api.spec.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET / → 200",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 477,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:00.634Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-c883e57b014206ba0158",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /#apaituwbs → 200",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 125,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:01.182Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-9080af3e4c335111feba",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /page/ruang-lingkup → 200",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 98,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:01.376Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-684d5419f883c9235d02",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /page/perlindungan-pelapor → 200",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 93,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:01.497Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-f619826d0aa9486890d2",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /page/manual → 200/206",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 234,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:01.621Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-80b0db406819e929bdaf",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /laporan/tambah → 200/302",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 105,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:01.885Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-b88959dc8f0fa2cd19ee",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /register → 200/302",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 93,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:02.018Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-293780b5b8d54dd72399",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "GET /login → 200/302",
+              "ok": true,
+              "tags": [
+                "api]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 105,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:02.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1ea1b1599cbc08f16936-af304292561e6346883d",
+              "file": "playwright/tests/jr/api.spec.ts",
+              "line": 20,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "playwright\\tests\\jr\\e2e.spec.ts",
+      "file": "playwright/tests/jr/e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "[JR][@e2e] Alur publik non-destruktif",
+          "file": "playwright/tests/jr/e2e.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Route proteksi: /laporan/detail → redirect login / Laporan Saya / 404",
+              "ok": false,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 12078,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40",
+                        "location": {
+                          "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                          "column": 40,
+                          "line": 22
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                            "column": 40,
+                            "line": 22
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:00.639Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                        "column": 40,
+                        "line": 22
+                      }
+                    },
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14960,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40",
+                        "location": {
+                          "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                          "column": 40,
+                          "line": 22
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                            "column": 40,
+                            "line": 22
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('body')\nExpected pattern: \u001b[32m/not found|halaman tidak ditemukan|page not found/i\u001b[39m\nReceived string:  \u001b[31m\" Sorry, the page you are looking for could not be found. \"\u001b[39m\nTimeout: 10000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('body')\u001b[22m\n\u001b[2m    14 × locator resolved to <body>…</body>\u001b[22m\n\u001b[2m       - unexpected value \" Sorry, the page you are looking for could not be found. \"\u001b[22m\n\n\n\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// 3) 404 / Page Not Found juga dianggap proteksi valid\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[35m/not found|halaman tidak ditemukan|page not found/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 24 |\u001b[39m\n \u001b[90m 25 |\u001b[39m   test(\u001b[32m'Register halaman terbuka'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:22:40\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-08-25T14:45:15.067Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-923dc-rect-login-Laporan-Saya-404-jr-retry1\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                        "column": 40,
+                        "line": 22
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-ddb595e4ae377773e516",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "Register halaman terbuka",
+              "ok": true,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2097,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:32.575Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-b9f73b813832e6a11260",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "Login halaman terbuka",
+              "ok": true,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1741,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:35.099Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-3533c8a9ccab85f3023f",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Reset password: form bisa dikirim (cek feedback)",
+              "ok": false,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12463,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36",
+                        "location": {
+                          "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                          "column": 36,
+                          "line": 57
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                            "column": 36,
+                            "line": 57
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:36.864Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                        "column": 36,
+                        "line": 57
+                      }
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12870,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36",
+                        "location": {
+                          "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                          "column": 36,
+                          "line": 57
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                            "column": 36,
+                            "line": 57
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m failed\n\nLocator:  locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\nExpected: visible\nReceived: <element(s) not found>\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('[role=\"alert\"],\\n      .alert,\\n      .invalid-feedback,\\n      .help-block,\\n      .text-danger,\\n      .text-success').filter({ hasText: /email|terkirim|periksa|invalid|gagal|reset/i }).first()\u001b[22m\n\n\n\u001b[0m \u001b[90m 55 |\u001b[39m\n \u001b[90m 56 |\u001b[39m     \u001b[90m// Toleran: tunggu muncul salah satu indikator teks feedback\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     \u001b[36mawait\u001b[39m expect(feedback\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m   test(\u001b[32m'Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts:57:36\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-08-25T14:45:51.464Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr-retry1\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr-retry1\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr-retry1\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "E:\\AXURA\\wbs-playwright\\test-results\\e2e--JR-e2e-Alur-publik-no-c7895--bisa-dikirim-cek-feedback--jr-retry1\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "E:\\AXURA\\wbs-playwright\\playwright\\tests\\jr\\e2e.spec.ts",
+                        "column": 36,
+                        "line": 57
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-3284c8c0104abd465931",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 35,
+              "column": 7
+            },
+            {
+              "title": "Tambah Laporan (Step 1): isi minimal → munculkan validasi reCAPTCHA",
+              "ok": true,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2826,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:46:06.753Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-6772c979f880d22e3155",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 60,
+              "column": 7
+            },
+            {
+              "title": "Manual – PDF tersedia",
+              "ok": true,
+              "tags": [
+                "e2e]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 525,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:46:09.951Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-6f2bf7f65e86ba96e6e8",
+              "file": "playwright/tests/jr/e2e.spec.ts",
+              "line": 128,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "playwright\\tests\\jr\\smoke.spec.ts",
+      "file": "playwright/tests/jr/smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "[JR][@smoke] Halaman publik dasar",
+          "file": "playwright/tests/jr/smoke.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Home 2xx & memuat kata kunci WBS",
+              "ok": true,
+              "tags": [
+                "smoke]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6122,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:00.641Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-4ab6d18b42762d629430",
+              "file": "playwright/tests/jr/smoke.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "Ruang Lingkup dapat diakses & menampilkan judul",
+              "ok": true,
+              "tags": [
+                "smoke]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 5052,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:07.220Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-22e8c5a7eb6860bc4970",
+              "file": "playwright/tests/jr/smoke.spec.ts",
+              "line": 10,
+              "column": 7
+            },
+            {
+              "title": "Perlindungan Pelapor dapat diakses & menampilkan judul",
+              "ok": true,
+              "tags": [
+                "smoke]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1926,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:12.295Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-7414a1cfea204ad99843",
+              "file": "playwright/tests/jr/smoke.spec.ts",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "Anchor \"Apa itu WBS?\" berfungsi",
+              "ok": true,
+              "tags": [
+                "smoke]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4794,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:14.239Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-e38770870251134d10d5",
+              "file": "playwright/tests/jr/smoke.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "[JR][@smoke] Responsif: navbar dapat diakses di lebar mobile",
+              "ok": true,
+              "tags": [
+                "smoke]",
+                "smoke]"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "jr",
+                  "projectName": "jr",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1904,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-25T14:45:19.052Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4219922fea2e2bd3c691-979e5c680c700e22e91f",
+              "file": "playwright/tests/jr/smoke.spec.ts",
+              "line": 27,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-25T14:44:59.420Z",
+    "duration": 71332.343,
+    "expected": 17,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

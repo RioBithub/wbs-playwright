@@ -1,0 +1,16 @@
+{
+  "name": "wbs-jr-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:jr": "playwright test --project=jr",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "server": "node server.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "express": "^4.21.2"
+  }
+}
